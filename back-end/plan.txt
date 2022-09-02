@@ -1,0 +1,30 @@
+get the req.body from form 
+
+
+- Pricing
+- Take a base price of £120 / year (£10 a month)
+- Add an increase of 5% to the price for each year up to 5 and 10% for each year past that up to 10
+- Apply a 10% lower price to 3 breeds
+- Apply a 15% higher price to 3 address areas
+- Apply the multi-pet discount at 10% for each pet when 2 or more pets are included
+- Validation
+- Please check the address is a valid UK address
+- Please check the breed is a known breed
+
+Pricing
+- Take a base price of £120 / year (£10 a month)
+- Add an increase of 5% to the price for each year up to 5 and 10% for each year past that up to 10
+    - Example
+        - Base pet price at birth = £120
+        - 1 year old pet = 105% of this price (£126)
+        - 2 year old pet = 110% (£132)
+        - 3 = 115%
+        - 4 = 120%
+        - 5 = 125%
+        - 6 = 135%
+        - 7 = 145%
+        - 8 = 155%
+        - 9 = 165%
+        - 10 = 175%
+    - Note this is based on the age of the pet at the time of getting a quote, not how many years they were insured with us
+

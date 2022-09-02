@@ -1,4 +1,22 @@
-get the req.body from form 
+create npm init
+-with relevant npm i's dotenv express nodemon pg etc.
+create a .env file
+create a .gitignore file
+create a app.js
+-import express cors etc.
+-use the above
+-store express functions in a variable to use as methods
+-create a port number
+-app.get welcome message
+-app.listen to above port to spin up a server
+-import router(s) from relevant file(s)
+create router folder
+create models folder
+create db folder
+-create scripts folder
+--create files + create a script to ro run it in package json
+
+build a pool query to allow SQL in node
 
 
 - Pricing

@@ -16,6 +16,7 @@ petRouter.post("/", async function (req, res) {
   let name = req.body.name;
   let age = req.body.age;
   let address = req.body.address;
+    let result = getBreed(species,breed)
   res.json({ success: true, message: "blank for now", payload: RESULT });
 });
 

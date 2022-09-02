@@ -1,3 +1,6 @@
+presentation link:
+https://docs.google.com/presentation/d/1RJ6bt5B16w6Y64Lxbhw6HOvEuqxpR-kuL1SH8d2ZrCo/edit#slide=id.g138c0b709d0_0_140
+
 create npm init
 -with relevant npm i's dotenv express nodemon pg etc.
 create a .env file

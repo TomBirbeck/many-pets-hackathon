@@ -1,6 +1,6 @@
 //
 import express from "express";
-// import { functions } from "../models/index.js";
+import { getBreed } from "../models/index.js";
 
 const petRouter = express.Router();
 
@@ -10,14 +10,14 @@ const petRouter = express.Router();
 // })
 
 petRouter.post("/", async function (req, res) {
-  // const RESULT = await getUserFeedback();
-  let species = req.body.species;
-  let breed = req.body.breed;
-  let name = req.body.name;
-  let age = req.body.age;
-  let address = req.body.address;
-    let result = getBreed(species,breed)
-  res.json({ success: true, message: "blank for now", payload: RESULT });
+    // const RESULT = await getUserFeedback();
+    let species = req.body.species;
+    let breed = req.body.breed;
+    let name = req.body.name;
+    let age = req.body.age;
+    let address = req.body.address;
+    let result = getBreed(species, breed);
+    res.json({ success: true, message: "blank for now", payload: result });
 });
 
 /*
